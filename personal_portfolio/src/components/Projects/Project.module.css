@@ -1,0 +1,86 @@
+.projectsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.sectionTitle {
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.projectCard {
+  background-color: var(--project-card-bg);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 200ms ease-in-out;
+}
+
+.projectCard:hover {
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectTitle {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.projectDescription {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: var(--form-text-color);
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skillItem {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.githubLink {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.githubLink img {
+  width: 30px;
+  transition: transform 200ms ease-in-out;
+}
+
+.githubLink img:hover {
+  transform: scale(1.1);
+}

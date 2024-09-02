@@ -1,0 +1,29 @@
+.marqueeContainer {
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--background-color);
+  padding: 50px 0;
+  padding-bottom: 0%;
+}
+
+.marquee {
+  display: flex;
+  animation: scroll 30s linear infinite;
+}
+
+.skill {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  padding: 0 30px;
+  white-space: nowrap;
+  color: var(--text-color);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

@@ -28,7 +28,10 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1200px;
 }
 
 h1,

@@ -49,7 +49,11 @@ function Hero() {
             <img src={githubLogo} alt="Github Logo" />
           </a>
         </span>
-        <p className={styles.description}>Write a short bio here. </p>
+        <p className={styles.description}>
+          {" "}
+          Senior CS student at Virginia Tech with a passion for developing
+          impactful full stack applications.{" "}
+        </p>
         <a href={CV} download>
           <button className="hover"> Resume </button>
         </a>
