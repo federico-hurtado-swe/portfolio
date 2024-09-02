@@ -36,6 +36,8 @@ function Hero() {
           Federico <br /> Hurtado
         </h1>
         <h2> Full Stack Developer </h2>
+        <h2> + </h2>
+        <h2> Software Engineer </h2>
         <span>
           <a
             href="https://www.linkedin.com/in/federico-hurtado-885495228"

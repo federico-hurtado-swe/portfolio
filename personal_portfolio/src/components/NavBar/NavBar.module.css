@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.navbar a {
+  color: var(--text-color);
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  color: var(--btn-text-color);
+  transform: scale(1.05);
+}
+
+.navbar a:active {
+  transform: translateY(2px);
+}
+
+[data-theme="dark"] .navbar a {
+  color: var(--text-color);
+}
